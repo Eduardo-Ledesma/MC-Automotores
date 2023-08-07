@@ -1,0 +1,54 @@
+/* #root { height: 100% }
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #cac2c2;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+} */
+
+.swiper {
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+@media (min-width: 768px) {
+    .swiper {
+        width: 70%;
+    }
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+}
+@media (min-width: 768px) {
+    .swiper-slide {
+        width: 600px;
+    }
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.swiper-button-prev {
+    color: #FFF;
+}
+
+.swiper-button-next {
+    color: #FFF;
+}
+
+.swiper-pagination-bullet {
+    background-color: white;
+}
