@@ -8,7 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import Index from './pages/index.jsx';
+import Index from './pages/Index.jsx'
 
 const router = createBrowserRouter([
   {
