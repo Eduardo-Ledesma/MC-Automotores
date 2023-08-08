@@ -6,8 +6,8 @@ const Footer = () => {
     return (
         <footer className="bg-black">
             <div className="container mx-auto flex flex-col md:flex-row md:justify-between items-center">
-                <nav className="mx-auto md:mx-0 pb-10 md:pb-0">
-                    <ul className="flex gap-6">
+                <nav className="mx-auto md:mx-0 py-10 md:py-0">
+                    <ul className="flex flex-col sm:flex-row gap-6">
                         <li>
                             <Link to="/"
                                 className="nav_link"

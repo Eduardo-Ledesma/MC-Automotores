@@ -24,6 +24,7 @@
     width: 100%;
 }
 
+/* Presentation */
 .bg-img__nissan {
     background-image: linear-gradient(to bottom, transparent 85%, rgb(255, 255, 255, 1)), url('/img/salonEdit.jpg');
     background-size: cover; 
