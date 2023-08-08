@@ -2,13 +2,17 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
+import { AppProvider } from './context/AppProvider.jsx'
 
 import {
   createBrowserRouter,
   RouterProvider,
-} from "react-router-dom";
+} from "react-router-dom"
 
 import Index from './pages/Index.jsx'
+import About from './pages/About.jsx'
+import Cars from './pages/Cars.jsx'
+import CarDetails from './pages/CarDetails.jsx'
 
 const router = createBrowserRouter([
   {
@@ -16,8 +20,20 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        element: <Index />,
-        index: true
+        index: true,
+        element: <Index />
+      },
+      {
+        path: 'about',
+        element: <About />
+      },
+      {
+        path: 'cars',
+        element: <Cars />
+      },
+      {
+        path: 'cars/:id',
+        element: <CarDetails />
       }
     ]
   },
@@ -25,6 +41,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <AppProvider>
+      <RouterProvider router={router} />
+    </AppProvider>
   </React.StrictMode>,
 )

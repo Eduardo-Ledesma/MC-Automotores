@@ -1,0 +1,8 @@
+.border {
+    border-radius: 27% 73% 70% 30% / 65% 70% 30% 35%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}

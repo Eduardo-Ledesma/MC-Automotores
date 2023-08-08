@@ -18,7 +18,7 @@ const Index = () => {
                 <h3 className="text-4xl font-bold text-white text-center">Nuestros Vehículos</h3>
                 <SwiperGalery />
                 <div className="flex mt-4 pb-4">
-                    <Link to='/'
+                    <Link to='/cars'
                         className="mx-auto bg-gray-300 px-3 py-2 rounded-md font-bold w-4/5 md:w-2/5 lg:w-1/5 text-center text-xl
                             transition-transform hover:scale-110"
                     >Ver todos</Link>

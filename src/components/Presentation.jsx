@@ -1,5 +1,5 @@
 import '../styles/header.css'
-import 'animate.css';
+import 'animate.css'
 
 const Presentation = () => {
     return (

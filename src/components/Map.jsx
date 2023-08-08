@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom"
 
-
 const Map = () => {
     return (
-        <section className="container mx-auto pt-20 pb-10">
+        <section className="container mx-auto pt-20 pb-10 lg:py-16">
             <div className="flex flex-col md:flex-row justify-center gap-10"> 
                 <div className="text-white px-4 text-center md:text-left md:order-2">
                     <h3 className="font-bold text-3xl uppercase">Contactanos</h3>
@@ -26,7 +25,7 @@ const Map = () => {
 
                         <p className="text-xl mt-2">Seguinos en:</p>
 
-                        <ul className="flex justify-center md:justify-start mb-10 gap-4">
+                        <ul className="flex justify-center md:justify-start mb-4 md:mb-8 gap-4">
                             <li>
                                 <Link to='https://www.facebook.com/autosmancha.pickups' target="_blank">
                                     <img src="/icono-facebook.svg" alt="icono facebook" 
@@ -46,9 +45,9 @@ const Map = () => {
                         
                     </div>
                 </div>
-
-                <div className="w-auto mx-auto md:mx-0 h-64 md:mt-2 md:order-1">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1579.1320965983641!2d-63.54602252775461!3d-37.66649947035849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95e902e581746193%3A0xe766a6508868d220!2sCastelli%20280%2C%20Guatrach%C3%A9%2C%20La%20Pampa!5e0!3m2!1ses-419!2sar!4v1691441527094!5m2!1ses-419!2sar" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="h-full">
+        
+                <div className="w-auto sm:w-2/3 md:w-auto mx-auto md:mx-0 h-64 lg:h-80 lg:mb-4 md:mt-2 lg:w-1/3 md:order-1">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1579.1320965983641!2d-63.54602252775461!3d-37.66649947035849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95e902e581746193%3A0xe766a6508868d220!2sCastelli%20280%2C%20Guatrach%C3%A9%2C%20La%20Pampa!5e0!3m2!1ses-419!2sar!4v1691441527094!5m2!1ses-419!2sar" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="h-full w-full">
                     </iframe>
                 </div>
             </div>

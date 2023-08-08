@@ -12,15 +12,15 @@ const Header = () => {
                     />
                 </Link>
             </div>
-            <nav className="mx-auto md:mx-0 py-10 md:py-0">
+            <nav className="mx-auto md:mx-0 md:pr-4 py-10 md:py-0">
                 <ul className="flex flex-col sm:flex-row gap-6">
                     <li>
-                        <Link to="/"
+                        <Link to="/about"
                             className="nav_link"
                         >Nosotros</Link>
                     </li>
                     <li>
-                        <Link to="/"
+                        <Link to="/cars"
                             className="nav_link"
                         >Vehículos</Link>
                     </li>
