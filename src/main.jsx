@@ -13,6 +13,7 @@ import Index from './pages/Index.jsx'
 import About from './pages/About.jsx'
 import Cars from './pages/Cars.jsx'
 import CarDetails from './pages/CarDetails.jsx'
+import Contact from './pages/Contact.jsx'
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: 'cars/:id',
         element: <CarDetails />
+      },
+      {
+        path: 'contact',
+        element: <Contact />
       }
     ]
   },
