@@ -3,8 +3,8 @@
 const CarDescription = () => {
     return (
         <section className="container mx-auto flex px-4 gap-10">
-            <div className="max-w-2xl shadow__total hover:cursor-pointer overflow-hidden">
-                <img src="/img/Auto1.webp" alt="foto eco sport" className='hover:scale-110 transition-transform duration-500' />
+            <div className="w-full h-80 lg:h-auto lg:max-w-2xl shadow__total hover:cursor-pointer overflow-hidden">
+                <img src="/img/Auto1.webp" alt="foto eco sport" className='hover:scale-110 transition-transform duration-500 w-full h-full' />
             </div>
             
             <div className="">

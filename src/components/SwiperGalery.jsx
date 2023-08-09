@@ -33,9 +33,9 @@ const SwiperGalery = () => {
             navigation={true}
             loop={true}
             modules={[EffectCoverflow, Pagination, Navigation, Autoplay]}
-            className="mySwiper"
+            className="swiper__first"
         >
-        <SwiperSlide><img loading='lazy' src="/img/Auto1.webp" alt="foto auto1" /></SwiperSlide>
+        <SwiperSlide className='swiper__wow'><img loading='lazy' src="/img/Auto1.webp" alt="foto auto1" /></SwiperSlide>
         <SwiperSlide><img loading='lazy' src="/img/Auto2.webp" alt="foto auto2" /></SwiperSlide>
         <SwiperSlide><img loading='lazy' src="/img/Auto3.webp" alt="foto auto3" /></SwiperSlide>
         <SwiperSlide><img loading='lazy' src="/img/Auto4.webp" alt="foto auto4" /></SwiperSlide>

@@ -18,16 +18,12 @@ const CarGalery = () => {
         keyboard={{
             enabled: true,
         }}
-        pagination={{
-            
-        }}
+        pagination={false}
         navigation={true}
         modules={[Keyboard, Pagination, Navigation]}
-        className="polenta"
+        className="swiper__second"
         >
-        <SwiperSlide><div className='max-h-96'>
-            <img loading='lazy' src="/img/eco/eco_2.jpg" alt="imagen ilustrativa ecosport" />
-        </div></SwiperSlide>
+        <SwiperSlide><img loading='lazy' src="/img/eco/eco_2.jpg" alt="imagen ilustrativa ecosport" /></SwiperSlide>
         <SwiperSlide><img loading='lazy' src="/img/eco/eco_3.jpg" alt="imagen ilustrativa ecosport" /></SwiperSlide>
         <SwiperSlide><img loading='lazy' src="/img/eco/eco_7.jpg" alt="imagen ilustrativa ecosport" /></SwiperSlide>
         <SwiperSlide><img loading='lazy' src="/img/eco/eco_5.jpg" alt="imagen ilustrativa ecosport" /></SwiperSlide>

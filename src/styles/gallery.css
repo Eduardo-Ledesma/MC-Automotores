@@ -1,11 +1,9 @@
-.swiper {
-    width: 80%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+.swiper__second {
+    width: 100%;
 }
 @media (min-width: 768px) {
-    .swiper {
-        width: 70%
+    .swiper__second {
+        width: 85%;
     }
 }
 
@@ -25,21 +23,27 @@
     width: 100%;
 }
 
-
-
 .swiper-button-prev,
+.swiper-button-next {
+    color: #FFF;
+    padding: 2rem 1.5rem;
+}
+/* .swiper-button-prev,
 .swiper-button-next {
     color: #FFF;
     background-color: #6d6a6a;
     padding: 2rem 1.5rem;
     border-radius: .2rem;
     transition: background-color .3s ease;
-}
+} */
 
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
     color: #FFF;
-    background-color: #313030;
+    background-color: #6d6a6a;
+    
+    border-radius: .2rem;
+    transition: background-color .3s ease;
     
 }
 
