@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import { Link } from "react-router-dom"
 import Presentation from "../components/Presentation"
 import SwiperGalery from "../components/SwiperGalery"
@@ -5,6 +6,11 @@ import Brands from "../components/Brands"
 import Map from "../components/Map"
 
 const Index = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <Presentation />
@@ -19,8 +25,8 @@ const Index = () => {
                 <SwiperGalery />
                 <div className="flex mt-4 pb-4">
                     <Link to='/cars'
-                        className="mx-auto bg-gray-300 px-3 py-2 rounded-md font-bold w-4/5 md:w-2/5 lg:w-1/5 text-center text-xl
-                            transition-transform hover:scale-110"
+                        className="mx-auto border-2 border-gray-200 hover:bg-gray-200 hover:text-gray-800 px-3 py-2 rounded-md font-bold w-4/5 md:w-2/5 lg:w-1/5 text-center text-xl
+                            transition-all duration-500 hover:scale-110"
                     >Ver todos</Link>
                 </div>
             </main>

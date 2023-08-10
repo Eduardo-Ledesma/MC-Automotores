@@ -1,24 +1,30 @@
-import FormContact from "../components/FormContact"
+import { useEffect } from "react"
 import { Link } from "react-router-dom"
+import FormContact from "../components/FormContact"
 
 const Contact = () => {
-    return (
-        <main className="bg-gradient-to-br from-slate-300 to-gray-100 pt-14">
-            <h1 className="font-bold text-3xl sm:text-5xl text-gray-800 text-center mb-20">Contactanos</h1>
 
-            <section className="container mx-auto pb-10">
-                <p className="text-xl px-2 text-center font-bold text-gray-800">A continuación escribí tus datos en el formulario y hacenos llegar tu mensaje,</p>
-                <p className="text-xl px-2 text-center font-bold text-gray-800">o sino también podes contactarnos mediante nuestras redes o whatsapp</p>
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+    return (
+        <main className="bg-gradient-to-br from-slate-800 to-green-900 pt-14">
+            <h1 className="font-bold text-3xl sm:text-5xl text-center mb-20">Contactanos</h1>
+
+            <section className="container mx-auto pb-16">
+                <p className="text-lg md:text-xl px-2 text-center font-bold mb-2">A continuación escribí tus datos en el formulario y hacenos llegar tu mensaje,</p>
+                <p className="text-lg md:text-xl px-2 text-center font-bold">o sino también podes contactarnos mediante nuestras redes o whatsapp</p>
                 
-                <div className="mt-10 px-4 sm:px-10 py-10 bg-white rounded-md w-full lg:w-4/5 mx-auto shadow__total
+                <div className="mt-10 px-4 sm:px-10 py-10 border-2 rounded-md w-full lg:w-4/5 mx-auto shadow__total
                     grid lg:grid-cols-2 gap-10"
                 >
                     <FormContact />
 
                     <ul className="mt-10">
-                        <li className="flex flex-col sm:flex-row gap-2 sm:items-center mb-2">
-                            <p className="font-bold text-gray-800 w-1/5">M&C</p>
-                            <div className="flex w-full  sm:justify-start sm:w-4/5">
+                        <li className="flex flex-col sm:flex-row gap-2 sm:items-center mb-4">
+                            <p className="font-bold w-1/5">M&C</p>
+                            <div className="flex w-full items-center sm:justify-start gap-2 sm:w-4/5">
                                 <img src="/icono-whatsapp.png" alt="icono whatsapp" 
                                     className="min-w-fit h-10 sm:w-10"
                                 />
@@ -26,9 +32,9 @@ const Contact = () => {
                             </div>
                         </li>
 
-                        <li className="flex flex-col sm:flex-row gap-2 sm:items-center mb-2">
-                            <p className="font-bold text-gray-800 w-1/5">Joaquín</p>
-                            <div className="flex w-full  sm:justify-start sm:w-4/5">
+                        <li className="flex flex-col sm:flex-row gap-2 sm:items-center mb-4">
+                            <p className="font-bold w-1/5">Joaquín</p>
+                            <div className="flex w-full items-center sm:justify-start gap-2 sm:w-4/5">
                                 <img src="/icono-whatsapp.png" alt="icono whatsapp" 
                                     className="min-w-fit h-10 sm:w-10"
                                 />
@@ -36,9 +42,9 @@ const Contact = () => {
                             </div>
                         </li>
 
-                        <li className="flex flex-col sm:flex-row gap-2 sm:items-center mb-2">
-                            <p className="font-bold text-gray-800 w-1/5">Francisco</p>
-                            <div className="flex w-full  sm:justify-start sm:w-4/5">
+                        <li className="flex flex-col sm:flex-row gap-2 sm:items-center mb-4">
+                            <p className="font-bold w-1/5">Francisco</p>
+                            <div className="flex w-full items-center sm:justify-start gap-2 sm:w-4/5">
                                 <img src="/icono-whatsapp.png" alt="icono whatsapp" 
                                     className="min-w-fit h-10 sm:w-10"
                                 />

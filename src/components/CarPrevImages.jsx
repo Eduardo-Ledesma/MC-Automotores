@@ -6,7 +6,7 @@ const CarPrevImages = () => {
 
     return (
         <section className='mt-28'>
-            <h3 className='font-bold text-3xl text-center text-gray-800 mb-16'>Más Imágenes</h3>
+            <h3 className='font-bold text-3xl text-center mb-16'>Más Imágenes</h3>
             <div className='grid sm:grid-cols-2 md:grid-cols-3 border-y-2 border-gray-600'>
                 <div className='hover:cursor-pointer overflow-hidden max-h-80'
                     onClick={handleShowGallery}

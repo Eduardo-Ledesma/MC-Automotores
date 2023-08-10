@@ -1,9 +1,15 @@
-
+import { useEffect } from "react";
 
 const About = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
-        <main className="container mx-auto">
-            <div className="grid lg:grid-cols-2 gap-4 px-4 md:px-10 mt-20">
+        <main className="bg-gradient-to-b md:bg-gradient-to-br from-slate-800 to-green-900">
+        <div className="container mx-auto">
+            <div className="grid lg:grid-cols-2 gap-4 px-4 md:px-10 pt-20">
                 <div className="order-2 lg:order-1 mb-4 overflow-hidden">
                     <img src="/img/auto-carretera.png" alt="Imagen MC-Automotores" 
                         className="hover:scale-110 transition-transform duration-500 hover:cursor-pointer"/>
@@ -25,7 +31,7 @@ const About = () => {
 
             <div className="border-t border-gray-600 mx-4 md:mx-10 my-16"></div>
 
-            <div className="grid sm:grid-cols-2 md:grid-cols-3 mb-20 gap-y-6 px-10">
+            <div className="grid sm:grid-cols-2 md:grid-cols-3 pb-20 gap-y-6 px-10">
                 <div className="mx-auto flex flex-col">
                     <div className="mx-auto">
                         <svg width="5em" height="5em" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -56,6 +62,7 @@ const About = () => {
                 </div>
             </div>
             
+        </div>
         </main>
     )
 }
