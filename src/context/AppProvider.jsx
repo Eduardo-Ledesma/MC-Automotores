@@ -8,6 +8,7 @@ const AppProvider = ({ children }) => {
     'Auto9', 'Auto12', 'Auto13', 'Auto14', 'Auto17', 'Auto18', 'Auto19', 'Auto20', 'Auto21' ])
 
     const [showGallery, setShowGallery] = useState(false)
+    const [modalGallery, setModalGallery] = useState(false)
 
 
     const handleShowGallery = () => {
@@ -18,7 +19,9 @@ const AppProvider = ({ children }) => {
         value={{
             cars,
             handleShowGallery,
-            showGallery
+            showGallery,
+            setModalGallery,
+            modalGallery
         }}
     >
         {children}
