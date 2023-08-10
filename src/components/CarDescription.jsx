@@ -2,12 +2,13 @@
 
 const CarDescription = () => {
     return (
-        <section className="container mx-auto flex px-4 gap-10">
-            <div className="w-full h-80 lg:h-auto lg:max-w-2xl shadow__total hover:cursor-pointer overflow-hidden">
+        <section className="container mx-auto flex flex-col md:flex-row justify-center px-4 gap-10">
+            
+            <div className="w-full max-h-xl lg:h-auto lg:max-w-2xl shadow__total hover:cursor-pointer overflow-hidden">
                 <img src="/img/Auto1.webp" alt="foto eco sport" className='hover:scale-110 transition-transform duration-500 w-full h-full' />
             </div>
             
-            <div className="">
+            <div>
                 <ul>
                     <li className='flex items-center gap-4 mb-4'>
                         <svg width="28" height="28" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
@@ -57,13 +58,14 @@ const CarDescription = () => {
                     </li>
                     
                     <li className='flex items-center gap-4 mb-4'>
-                        <svg width="28" height="28" viewBox="0 0 32 27" xmlns="http://www.w3.org/2000/svg">
+                        <svg className="min-w-fit h-6" viewBox="0 0 32 27" xmlns="http://www.w3.org/2000/svg">
                             <path fill="#f37f04" d="M26.99 0L10.13 17.17l-5.44-5.54L0 16.41L10.4 27l4.65-4.73l.04.04L32 5.1L26.99 0z"/>
                         </svg>
                         <p className='font-bold text-2xl text-gray-800'>Apto crédito prendario, entrega mínima del 80%.</p>
                     </li>
                 </ul>
             </div>
+            
         </section>
     )
 }

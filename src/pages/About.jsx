@@ -34,7 +34,7 @@ const About = () => {
                         </svg>
                     </div>
                     
-                    <p className="md:text-lg">Manejá con confianza en tu vehículo</p>
+                    <p className="md:text-lg text-center">Manejá con confianza en tu vehículo</p>
                 </div>
                 
                 <div className="mx-auto flex flex-col">
@@ -43,7 +43,7 @@ const About = () => {
                             <path fill="#f37f04" d="M11.861 2.39a3 3 0 0 1 3.275-.034L19.29 5H21a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-1.52a2.65 2.65 0 0 1-1.285 2.449l-5.093 3.056a2 2 0 0 1-2.07-.008a2 2 0 0 1-2.561.073l-5.14-4.039a2.001 2.001 0 0 1-.565-2.446A2 2 0 0 1 2 13.51V6a1 1 0 0 1 1-1h4.947l3.914-2.61ZM4.173 13.646l.692-.605a3 3 0 0 1 4.195.24l2.702 2.972a3 3 0 0 1 .396 3.487l5.008-3.005a.657.657 0 0 0 .279-.79l-4.427-6.198a1 1 0 0 0-1.101-.377l-2.486.745a3 3 0 0 1-2.983-.752l-.293-.292A1.997 1.997 0 0 1 5.68 7H4v6.51l.173.135Zm9.89-9.602a1 1 0 0 0-1.093.012l-5.4 3.6l.292.293a1 1 0 0 0 .995.25l2.485-.745a3 3 0 0 1 3.303 1.13L18.515 14H20V7h-.709a2 2 0 0 1-1.074-.313l-4.155-2.644ZM6.181 14.545l-1.616 1.414l5.14 4.039l.705-1.232a1 1 0 0 0-.129-1.169L7.58 14.625a1 1 0 0 0-1.398-.08Z"></path>
                         </svg>
                     </div>
-                    <p className="md:text-lg">Brindamos seguridad en nuestros negocios</p>
+                    <p className="md:text-lg text-center">Brindamos seguridad en nuestros negocios</p>
                 </div>
 
                 <div className="mx-auto flex flex-col sm:col-start-1 sm:col-end-3 md:col-start-auto md:col-end-auto">
@@ -52,7 +52,7 @@ const About = () => {
                             <path fill="#f37f04" d="M15 4a8 8 0 0 1 8 8a8 8 0 0 1-8 8a8 8 0 0 1-8-8a8 8 0 0 1 8-8m0 2a6 6 0 0 0-6 6a6 6 0 0 0 6 6a6 6 0 0 0 6-6a6 6 0 0 0-6-6m-1 2h1.5v3.78l2.33 2.33l-1.06 1.06L14 12.4V8M2 18a1 1 0 0 1-1-1a1 1 0 0 1 1-1h3.83c.31.71.71 1.38 1.17 2H2m1-5a1 1 0 0 1-1-1a1 1 0 0 1 1-1h2.05L5 12l.05 1H3m1-5a1 1 0 0 1-1-1a1 1 0 0 1 1-1h3c-.46.62-.86 1.29-1.17 2H4Z"></path>
                         </svg>
                     </div>
-                    <p className="md:text-lg">Ahorrá tiempo buscando lo que querés</p>
+                    <p className="md:text-lg text-center">Ahorrá tiempo buscando lo que querés</p>
                 </div>
             </div>
             

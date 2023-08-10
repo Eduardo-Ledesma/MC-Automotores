@@ -7,12 +7,12 @@ const Gallery = () => {
     const { handleShowGallery } = useApp()
 
     return (
-        <div className='absolute top-0 right-0 left-0 bottom-0 bg-black z-10 animate__animated animate__fadeIn flex overflow-hidden'>
+        <div className='absolute top-0 right-0 left-0 bottom-0 bg-black z-10 animate__animated animate__fadeIn flex overflow-y-hidden'>
                             
-            <div className='w-full xl:w-4/5 mx-auto my-auto flex flex-col md:flex-row'>
+            <div className='w-full xl:w-4/5 mx-auto my-auto flex flex-col lg:flex-row'>
                 
                 <CarGalery />
-                <button type='button' className='place-self-center mt-4 md:place-self-start'
+                <button type='button' className='place-self-center mt-4 lg:place-self-start'
                     onClick={handleShowGallery}
                 >
                     <svg width="50" height="50" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
