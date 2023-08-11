@@ -17,7 +17,7 @@ const CarsSection = () => {
         <section className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-y-10 gap-x-10 flex-wrap container mx-auto px-4">
             
             { cars.map((car, i) => (
-                <div key={i} className="pb-2 hover:cursor-pointer border-b-2 border-gray-500 hover:border-yellow-600 animate__animated animate__fadeIn"
+                <div key={i} id={car} className="pb-2 hover:cursor-pointer border-b-2 border-gray-500 hover:border-yellow-600 animate__animated animate__fadeIn animate__slower"
                     onClick={() => handleClick(i)}
                 >
                     <div className="overflow-hidden hover:cursor-pointer shadow-2xl">

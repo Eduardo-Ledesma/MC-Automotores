@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import 'animate.css'
 
 const About = () => {
 
@@ -12,7 +13,7 @@ const About = () => {
             <div className="grid lg:grid-cols-2 gap-4 px-4 md:px-10 pt-20">
                 <div className="order-2 lg:order-1 mb-4 overflow-hidden">
                     <img src="/img/auto-carretera.png" alt="Imagen MC-Automotores" 
-                        className="hover:scale-110 transition-transform duration-500 hover:cursor-pointer"/>
+                        className="hover:scale-110 transition-transform duration-500 hover:cursor-pointer animate__animated animate__fadeIn animate__slower"/>
                 </div>
                 <div className="order-1 lg:order-2 mb-4">
                     <h3 className="font-bold text-3xl text-center mb-8">¿Por qué comprar con nosotros?</h3>

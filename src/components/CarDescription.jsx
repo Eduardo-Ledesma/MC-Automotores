@@ -1,10 +1,10 @@
-
+import 'animate.css'
 
 const CarDescription = () => {
     return (
         <section className="container mx-auto flex flex-col md:flex-row justify-center px-4 gap-10">
             
-            <div className="w-full max-h-xl lg:h-auto lg:max-w-2xl shadow__total hover:cursor-pointer overflow-hidden">
+            <div className="w-full max-h-xl lg:h-auto lg:max-w-2xl shadow__total hover:cursor-pointer overflow-hidden animate__animated animate__fadeIn animate__slower">
                 <img src="/img/Auto1.webp" alt="foto eco sport" className='hover:scale-110 transition-transform duration-500 w-full h-full' />
             </div>
             

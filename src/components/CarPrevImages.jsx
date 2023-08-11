@@ -1,4 +1,6 @@
+import { useEffect } from 'react'
 import useApp from '../hooks/useApp'
+import 'animate.css'
 
 const CarPrevImages = () => {
 
@@ -60,4 +62,29 @@ const CarPrevImages = () => {
     )
 }
 
-export default CarPrevImages
+const LazyImages = () => {
+
+    useEffect(() => {
+        const change = (entries) => {
+            
+            const el = entries[0]
+            console.log(el);
+            if(el.isIntersecting) {
+                const section = document.querySelector('#lazyImg')
+                section.classList.add('animate__animated', 'animate__fadeIn', 'animate__slower')
+            }
+        }
+
+        const observer = new IntersectionObserver(change, {
+            rootMargin: '20px'
+        })
+
+        observer.observe(document.querySelector('#lazyImg'))
+    })
+
+    return <div id='lazyImg'>
+        <CarPrevImages />
+    </div>
+}
+
+export default LazyImages
