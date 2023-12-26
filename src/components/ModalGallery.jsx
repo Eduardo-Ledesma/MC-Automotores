@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react'
 import { Dialog } from '@headlessui/react'
 import useApp from '../hooks/useApp'
 import CarGallery from './CarGallery'
@@ -39,7 +38,7 @@ function ModalGallery() {
 
 
                         <div>
-                            <div className="flex mx-auto justify-center w-full">
+                            <div className="flex mx-auto justify-center w-full xl:w-[90%]">
                                 <CarGallery />
                             </div>
                         </div>

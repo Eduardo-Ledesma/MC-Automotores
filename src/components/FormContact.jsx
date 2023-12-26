@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import '../styles/border.css'
 
 const FormContact = () => {
@@ -25,6 +25,7 @@ const FormContact = () => {
           <input type="text" 
             name="name"
             id="name"
+            autoComplete="off"
             placeholder="Nombre y Apellido"
             className="border-b border-gray-200 py-2 px-3 focus:outline-none focus:border-blue-600 bg-transparent"
             value={name}
@@ -37,6 +38,7 @@ const FormContact = () => {
           <input type="email" 
             name="email"
             id="email"
+            autoComplete="off"
             placeholder="Email"
             className="border-b border-gray-200 py-2 px-3 focus:outline-none focus:border-blue-600 bg-transparent"
             value={email}
@@ -49,6 +51,7 @@ const FormContact = () => {
           <input type="number" 
             name="phone"
             id="phone"
+            autoComplete="off"
             placeholder="Teléfono"
             className="border-b border-gray-200 py-2 px-3 focus:outline-none focus:border-blue-600 bg-transparent"
             value={phone}
@@ -61,6 +64,7 @@ const FormContact = () => {
           <input type="text" 
             name="reason"
             id="reason"
+            autoComplete="off"
             placeholder="Asunto"
             className="border-b border-gray-200 py-2 px-3 focus:outline-none focus:border-blue-600 bg-transparent"
             value={reason}

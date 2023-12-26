@@ -68,7 +68,6 @@ const LazyImages = () => {
         const change = (entries) => {
             
             const el = entries[0]
-            console.log(el);
             if(el.isIntersecting) {
                 const section = document.querySelector('#lazyImg')
                 section.classList.add('animate__animated', 'animate__fadeIn', 'animate__slower')
